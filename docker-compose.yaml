@@ -1,0 +1,8 @@
+version: '3.7'
+
+services:
+  currency-exchange:
+    image: library/currency-exchange-service:0.0.1-SNAPSHOT
+    mem_limit: 700m
+    ports:
+    - "8000:8000"
